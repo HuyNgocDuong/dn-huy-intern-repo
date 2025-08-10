@@ -114,20 +114,34 @@ You need to design a productivity screen for your project.
     > “Let’s begin with a tiny step.”
     > 
 
-### **🛠️ Task**
+### 🛠️ Task
 
 📖 Read a **first-person account** from someone with ADHD or Autism about their experiences with productivity tools.
 
-Kate Arends writes on Wit & Delight about how momentum along with simplicity serve as essential elements for ADHD users when using productivity tools. The hardest part of any action she has always understood to be starting which is why building momentum becomes essential for her. People with ADHD experience extreme difficulty with transitions thus the momentum principle acts as a sustaining force for their progress. She depends on several tools that include a minimal morning schedule and a physical planner and multiple timers and The Brick distraction blocker and headphones for concentration. The author emphasizes that users with ADHD need digital tools with simple interfaces because cluttered systems with multiple features create overwhelming experiences that decrease productivity. Read her full article here.
+Kate Arends writes on Wit & Delight about how momentum along with simplicity serve as essential elements for ADHD users when using productivity tools. The hardest part of any action she has always understood to be starting which is why building momentum becomes essential for her. People with ADHD experience extreme difficulty with transitions thus the momentum principle acts as a sustaining force for their progress. She depends on several tools that include a minimal morning schedule and a physical planner and multiple timers and The Brick distraction blocker and headphones for concentration. The author emphasizes that users with ADHD need digital tools with simple interfaces because cluttered systems with multiple features create overwhelming experiences that decrease productivity [1].
 
-The Reddit platform contains an open discussion which reveals several ADHD community members declaring that pen and notebook represent their most effective organizational tools. Writing with index cards and handwriting proves more manageable than complex digital systems according to them which confirms that too many features act as obstacles instead of advantages. See this discussion on Reddit.
+The Reddit platform contains an open discussion which reveals several ADHD community members declaring that pen and notebook represent their most effective organizational tools. Writing with index cards and handwriting proves more manageable than complex digital systems according to them which confirms that too many features act as obstacles instead of advantages [2].
 
-ADHD coach Jo Banks suggests people use the Pomodoro Technique with adjustable work time intervals to suit their individual requirements. The reward-motivated nature of individuals with ADHD requires immediate feedback and positive reinforcement following every challenging assignment according to her observations. Read her perspective.
+ADHD coach Jo Banks suggests people use the Pomodoro Technique with adjustable work time intervals to suit their individual requirements. The reward-motivated nature of individuals with ADHD requires immediate feedback and positive reinforcement following every challenging assignment according to her observations [3].
 
-### **🛠️ Focus Bear needs an improvement in its design which involves:**
+---
 
-****The interviewed users strongly emphasize that a simplified interface design represents their top priority which includes basic features and large text and progressive complexity addition. The system needs an ultra-simplified mode that deletes all unnecessary components to stop users from feeling overwhelmed. The implementation of segmented onboarding alongside positive feedback messages with a calm tone would create better support for ADHD and autistic users.
+### 🛠️ Focus Bear needs an improvement in its design which involves:
 
-### ✅**A person dealing with executive function challenges should receive support from the following statement**
+The interviewed users strongly emphasize that a simplified interface design represents their top priority which includes basic features and large text and progressive complexity addition. The system needs an ultra-simplified mode that deletes all unnecessary components to stop users from feeling overwhelmed. The implementation of segmented onboarding alongside positive feedback messages with a calm tone would create better support for ADHD and autistic users.
 
-****The experience of executive functioning produces overwhelming feelings when it makes everyday assignments appear overwhelmingly challenging. The introduction of basic tools like physical notebooks or timer applications proves helpful for both individuals with ADHD and those with autism. Celebrate every bit of progress, no matter how small. When an application seems complicated you can check for simplified settings or get assistance because you join many users who need effective tools that meet their requirements.
+---
+
+### ✅ **A person dealing with executive function challenges should receive support from the following statement**
+
+The experience of executive functioning produces overwhelming feelings when it makes everyday assignments appear overwhelmingly challenging. The introduction of basic tools like physical notebooks or timer applications proves helpful for both individuals with ADHD and those with autism. Celebrate every bit of progress, no matter how small. When an application seems complicated you can check for simplified settings or get assistance because you join many users who need effective tools that meet their requirements.
+
+---
+
+### 📚 References
+
+[1] [https://witanddelight.com/2025/02/work-routine-productivity-tools-for-adhd](https://witanddelight.com/2025/02/work-routine-productivity-tools-for-adhd)
+
+[2] [https://www.reddit.com/r/notebooks/comments/1e0njdw/anyone_with_adhd_have_a_particular_system_they](https://www.reddit.com/r/notebooks/comments/1e0njdw/anyone_with_adhd_have_a_particular_system_they)
+
+[3] [https://jobanks.net/2025/06/27/3-adhd-productivity-tools-that-actually-work](https://jobanks.net/2025/06/27/3-adhd-productivity-tools-that-actually-work)
