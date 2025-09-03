@@ -2,6 +2,50 @@
 
 ## Add DockerFile and Docker-compose.yml to the project root to run
 
+## Steps to create a DockerFile in NestJs
+
+### **Step 1: Create the `Dockerfile` and a `.dockerignore` file**
+
+First, create a `Dockerfile` in the root directory of your NestJS project. A `Dockerfile` is a text file that contains a series of instructions for building a Docker image.
+
+It is also considered a best practice to create a `.dockerignore` file. This file functions similarly to a `.gitignore` file and tells Docker to exclude unnecessary files and directories, such as `node_modules` and `.git`, from the Docker image. This helps reduce the final image size and improves security.
+
+### **Step 2: Choose a Base Image**
+
+Use the `FROM` instruction to specify the base image for your application. A Node.js image is the standard choice. For better performance and a smaller final image size, it is recommended to use a lightweight variant like `node:20-alpine`.
+
+`FROM node:20-alpine`
+
+### **Step 3: Set up the Working Directory**
+
+The `WORKDIR` instruction creates a dedicated directory inside the container and sets it as the working directory for all subsequent commands.
+
+`WORKDIR /usr/src/app`
+
+### **Step 4: Copy and Install Dependencies**
+
+This is a critical step for build performance. To leverage Docker's build cache, you should copy only the dependency declaration files first (`package.json` and `package-lock.json` or `yarn.lock`). Then, install the dependencies. Using `npm ci` is more reliable in automated environments like Docker builds than `npm install`.
+
+`COPY package*.json./RUN npm ci`
+
+### **Step 5: Copy Application Code and Build for Production**
+
+After dependencies are installed, copy the rest of your application's source code into the container. Then, run the build command to compile the TypeScript code into a production-ready JavaScript bundle.
+
+`COPY..RUN npm run build`
+
+### **Step 6: Expose a Port**
+
+The `EXPOSE` instruction informs Docker that the container will listen on a specific port at runtime. This does not publish the port, but rather documents it.
+
+`EXPOSE 3000`
+
+### **Step 7: Define the Startup Command**
+
+The final step is to use the `CMD` instruction to define the command that will be executed when the container starts. This command will run your compiled NestJS application.
+
+`CMD ["node", "dist/main.js"]`
+
 `Test PostgreSQL connection to nestjs_db and list all the avaliable database`
 
 ![image.png](image.png)
